@@ -1,0 +1,22 @@
+# RivalsRanks config
+chat:
+  enabled: true
+  # Format uses legacy color codes (&). Variables:
+  # {prefix} {player} {message}
+  format: "{prefix}&f{player}&7: &f{message}"
+
+tab:
+  enabled: true
+  format: "{prefix}&f{player}"
+
+ranks:
+  OWNER:
+    prefix: "&4[OWNER]&r "
+  ADMIN:
+    prefix: "&c[ADMIN]&r "
+  MOD:
+    prefix: "&9[MOD]&r "
+  MEMBER:
+    prefix: "&7[MEMBER]&r "
+
+op-default-rank: ADMIN

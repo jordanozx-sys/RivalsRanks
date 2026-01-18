@@ -1,0 +1,22 @@
+name: RivalsRanks
+version: 1.0.0
+main: com.rivals.ranks.RivalsRanksPlugin
+api-version: '1.21'
+authors: [Rivals]
+description: Simple rank system (Owner/Admin/Mod/Member) with chat+tab prefixes.
+
+commands:
+  rank:
+    description: Manage player ranks.
+    usage: /rank <get|set|list|reload> ...
+    permission: rivalsranks.use
+
+permissions:
+  rivalsranks.use:
+    default: true
+  rivalsranks.get:
+    default: true
+  rivalsranks.set:
+    default: op
+  rivalsranks.reload:
+    default: op
